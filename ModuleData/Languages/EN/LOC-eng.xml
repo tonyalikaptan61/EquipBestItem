@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Weapon {WSLOT} Filter" />
+	<string id="EBIA1VY1vofT" text="Helm Filter" />
+	<string id="EBItycihSPUM" text="Cloak Filter" />
+	<string id="EBI2OAplMiax" text="Armor Filter" />
+	<string id="EBIndXJhG4Fl" text="Glove Filter" />
+	<string id="EBISyLNRp2EH" text="Boot Filter" />
+	<string id="EBIWv3s46UuK" text="Harness Filter" />
+	<string id="EBIWKXY16qEH" text="Horse Filter" />
+	<string id="EBIhdMZcrLgy" text="{Hero} equips weapon in the first slot" />
+	<string id="EBIImSfYBZIB" text="{Hero} equips weapon in the second slot" />
+	<string id="EBImnt3weSaE" text="{Hero} equips weapon in the third slot" />
+	<string id="EBIQWLelE3Fl" text="{Hero} equips weapon in the fourth slot" />
+	<string id="EBIhHipqU9uB" text="{Hero} equips helmet" />
+	<string id="EBI54XyvNFad" text="{Hero} equips body armor" />
+	<string id="EBI0tuZtFp3o" text="{Hero} equips boots" />
+	<string id="EBIEPpXh4mnM" text="{Hero} equips gloves" />
+	<string id="EBIzM65FL7cP" text="{Hero} equips cape" />
+	<string id="EBIQYRUfhlVn" text="{Hero} equips horse" />
+	<string id="EBIbrmijAmqh" text="{Hero} equips horse harness" />
+	<string id="EBIeRnuFTNPa" text="Armor settings copied" />
+	<string id="EBI56u7sYkAm" text="Weapon settings copied" />
+	<string id="EBI2m5jlKFnt" text="Mount settings copied" />
+	<string id="EBIOHCNI7iS0" text="Armor settings pasted" />
+	<string id="EBIZqjdQWO9K" text="Weapon settings pasted" />
+	<string id="EBIGACUqtWPa" text="Mount settings pasted" />
+	<string id="EBIzovmUPlRq" text="Character settings copied" />
+	<string id="EBIkFh5j2NRD" text="Character settings pasted" />
+	<string id="EBI6NqM3Sl2k" text="Thrust/Missile Damage" />
+	<string id="EBI9f3yNwEuu" text="Maneuver Bonus" />
+	<string id="EBIrhIxyYyp5" text="Speed Bonus" />
+	<string id="EBIw9NV9aoBI" text="Charge Bonus" />
+	<string id="EBIIGMjib8yk" text="Copy Filter" />
+	<string id="EBIJcmzPmKnJ" text="Paste Filter" />
+	<string id="EBIDHccM8J9h" text="Copy Character" />
+	<string id="EBI3eEhYOCKO" text="Paste Character" />
+  </strings>
+</base>

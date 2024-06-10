@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="Русский" />
+    </tags>
+    <strings>
+        <string id="EBIF1Rlt8Fv1" text="Фильтр {WSLOT} Оружия" />
+		<string id="EBIA1VY1vofT" text="Фильтр Шлема" />
+		<string id="EBItycihSPUM" text="Фильтр Накидки" />
+		<string id="EBI2OAplMiax" text="Фильтр Брони" />
+		<string id="EBIndXJhG4Fl" text="Фильтр Перчаток" />
+		<string id="EBISyLNRp2EH" text="Фильтр Обуви" />
+		<string id="EBIWv3s46UuK" text="Фильтр Упряжи" />
+		<string id="EBIWKXY16qEH" text="Фильтр Лошади" />
+		<string id="EBIhdMZcrLgy" text="{Hero} экипирует оружие в первый слот" />
+		<string id="EBIImSfYBZIB" text="{Hero} экипирует оружие в второй слот" />
+		<string id="EBImnt3weSaE" text="{Hero} экипирует оружие в третий слот" />
+		<string id="EBIQWLelE3Fl" text="{Hero} экипирует оружие в четвертый слот" />
+		<string id="EBIhHipqU9uB" text="{Hero} экипирует шлем" />
+		<string id="EBI54XyvNFad" text="{Hero} экипирует броню" />
+		<string id="EBI0tuZtFp3o" text="{Hero} экипирует обувь" />
+		<string id="EBIEPpXh4mnM" text="{Hero} экипирует перчатки" />
+		<string id="EBIzM65FL7cP" text="{Hero} экипирует накидку" />
+		<string id="EBIQYRUfhlVn" text="{Hero} экипирует лошадь" />
+		<string id="EBIbrmijAmqh" text="{Hero} экипирует упряжь" />
+		<string id="EBIeRnuFTNPa" text="Настройки Брони скопированы" />
+		<string id="EBI56u7sYkAm" text="Настройки Оружия скопированы" />
+		<string id="EBI2m5jlKFnt" text="Настройки Скакуна скопированы" />
+		<string id="EBIOHCNI7iS0" text="Настройки Брони вставлены" />
+		<string id="EBIZqjdQWO9K" text="Настройки Оружия вставлены" />
+		<string id="EBIGACUqtWPa" text="Настройки Скакуна вставлены" />
+		<string id="EBIzovmUPlRq" text="Настройки Персонажа скопированы" />
+		<string id="EBIkFh5j2NRD" text="Настройки Персонажа вставлены" />
+		<string id="EBI6NqM3Sl2k" text="выпаде/снаряда Урон" />
+		<string id="EBI9f3yNwEuu" text="Бонус Маневренность" />
+		<string id="EBIrhIxyYyp5" text="Бонус скорости" />
+		<string id="EBIw9NV9aoBI" text="Бонус столкновении" />
+		<string id="EBIIGMjib8yk" text="Копировать Фильтр" />
+		<string id="EBIJcmzPmKnJ" text="Вставить Фильтр" />
+		<string id="EBIDHccM8J9h" text="Копировать Персонажа" />
+		<string id="EBI3eEhYOCKO" text="Вставить Персонажа" />
+    </strings>
+</base>

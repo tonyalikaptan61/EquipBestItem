@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Filtr broni {WSLOT}" />
+	<string id="EBIA1VY1vofT" text="Filtr hełmu" />
+	<string id="EBItycihSPUM" text="Filtr płaszcza" />
+	<string id="EBI2OAplMiax" text="Filtr pancerza" />
+	<string id="EBIndXJhG4Fl" text="Filtr rękawicowy" />
+	<string id="EBISyLNRp2EH" text="Filtr butów" />
+	<string id="EBIWv3s46UuK" text="Filtr uprzęży" />
+	<string id="EBIWKXY16qEH" text="Filtr dla konia" />
+	<string id="EBIhdMZcrLgy" text="{Hero} wyposaża broń w pierwsze miejsce" />
+	<string id="EBIImSfYBZIB" text="{Hero} wyposaża broń w drugie miejsce" />
+	<string id="EBImnt3weSaE" text="{Hero} wyposaża broń w trzecie miejsce" />
+	<string id="EBIQWLelE3Fl" text="{Hero} wyposaża broń w czwarte miejsce" />
+	<string id="EBIhHipqU9uB" text="{Hero} zakłada hełm" />
+	<string id="EBI54XyvNFad" text="{Hero} zakłada kamizelkę kuloodporną" />
+	<string id="EBI0tuZtFp3o" text="{Hero} zakłada buty" />
+	<string id="EBIEPpXh4mnM" text="{Hero} zakłada rękawiczki" />
+	<string id="EBIzM65FL7cP" text="{Hero} zakłada pelerynę" />
+	<string id="EBIQYRUfhlVn" text="{Hero} wyposaża konia" />
+	<string id="EBIbrmijAmqh" text="{Hero} zakłada uprząż dla konia" />
+	<string id="EBIeRnuFTNPa" text="Skopiowano ustawienia zbroi" />
+	<string id="EBI56u7sYkAm" text="Ustawienia broni skopiowane" />
+	<string id="EBI2m5jlKFnt" text="Ustawienia montowania skopiowane" />
+	<string id="EBIOHCNI7iS0" text="Wklejono ustawienia zbroi" />
+	<string id="EBIZqjdQWO9K" text="Ustawienia broni wklejone" />
+	<string id="EBIGACUqtWPa" text="Ustawienia montowania wklejone" />
+	<string id="EBIzovmUPlRq" text="Ustawienia postaci skopiowane" />
+	<string id="EBIkFh5j2NRD" text="Wklejono ustawienia postaci" />
+	<string id="EBI6NqM3Sl2k" text="Uszkodzenia od pchnięć/pocisków" />
+	<string id="EBI9f3yNwEuu" text="Bonus za manewr" />
+	<string id="EBIrhIxyYyp5" text="Premia za prędkość" />
+	<string id="EBIw9NV9aoBI" text="Premia od szarży" />
+	<string id="EBIIGMjib8yk" text="Kopiuj filtr" />
+	<string id="EBIJcmzPmKnJ" text="Wklej filtr" />
+	<string id="EBIDHccM8J9h" text="Skopiuj znak" />
+	<string id="EBI3eEhYOCKO" text="Wklej znak" />
+  </strings>
+</base>

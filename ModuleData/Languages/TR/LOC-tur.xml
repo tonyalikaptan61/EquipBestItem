@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="{WSLOT}. Silah Filtresi" />
+	<string id="EBIA1VY1vofT" text="Miğfer Filtresi" />
+	<string id="EBItycihSPUM" text="Pelerin Filtresi" />
+	<string id="EBI2OAplMiax" text="Zırh Filtresi" />
+	<string id="EBIndXJhG4Fl" text="Eldiven Filtresi" />
+	<string id="EBISyLNRp2EH" text="Bot Filtresi" />
+	<string id="EBIWv3s46UuK" text="At Zırhı Filtresi" />
+	<string id="EBIWKXY16qEH" text="At Filtresi" />
+	<string id="EBIhdMZcrLgy" text="{Hero} birinci yuvaya silah kuşandı" />
+	<string id="EBIImSfYBZIB" text="{Hero} ikinci yuvaya silah kuşandı" />
+	<string id="EBImnt3weSaE" text="{Hero} üçüncü yuvaya silah kuşandı" />
+	<string id="EBIQWLelE3Fl" text="{Hero} dördüncü yuvaya silah kuşandı" />
+	<string id="EBIhHipqU9uB" text="{Hero} miğfer kuşandı" />
+	<string id="EBI54XyvNFad" text="{Hero} zırh kuşandı" />
+	<string id="EBI0tuZtFp3o" text="{Hero} ayakkabı kuşandı" />
+	<string id="EBIEPpXh4mnM" text="{Hero} eldiven kuşandı" />
+	<string id="EBIzM65FL7cP" text="{Hero} pelerin kuşandı" />
+	<string id="EBIQYRUfhlVn" text="{Hero} at kuşandı" />
+	<string id="EBIbrmijAmqh" text="{Hero} at zırhı kuşandı" />
+	<string id="EBIeRnuFTNPa" text="Zırh ayarları kopyalandı" />
+	<string id="EBI56u7sYkAm" text="Silah ayarları kopyalandı" />
+	<string id="EBI2m5jlKFnt" text="Binek ayarları kopyalandı" />
+	<string id="EBIOHCNI7iS0" text="Zırh ayarları yapıştırıldı" />
+	<string id="EBIZqjdQWO9K" text="Silah ayarları yapıştırıldı" />
+	<string id="EBIGACUqtWPa" text="Binek ayarları yapıştırıldı" />
+	<string id="EBIzovmUPlRq" text="Karakter ayarları kopyalandı" />
+	<string id="EBIkFh5j2NRD" text="Karakter ayarları yapıştırıldı" />
+	<string id="EBI6NqM3Sl2k" text="Saplama/Menzilli Hasarı" />
+	<string id="EBI9f3yNwEuu" text="Manevra Bonusu" />
+	<string id="EBIrhIxyYyp5" text="Hız Bonusu" />
+	<string id="EBIw9NV9aoBI" text="Çarpma Bonusu" />
+	<string id="EBIIGMjib8yk" text="Filtre Kopyala" />
+	<string id="EBIJcmzPmKnJ" text="Filtre Yapıştır" />
+	<string id="EBIDHccM8J9h" text="Karakter Kopyala" />
+	<string id="EBI3eEhYOCKO" text="Karakter Yapıştır" />
+  </strings>
+</base>

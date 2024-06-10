@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="位置{WSLOT}的武器筛选" />
+	<string id="EBIA1VY1vofT" text="头甲筛选" />
+	<string id="EBItycihSPUM" text="披风筛选" />
+	<string id="EBI2OAplMiax" text="身甲筛选" />
+	<string id="EBIndXJhG4Fl" text="手甲筛选" />
+	<string id="EBISyLNRp2EH" text="胫甲筛选" />
+	<string id="EBIWv3s46UuK" text="马具筛选" />
+	<string id="EBIWKXY16qEH" text="坐骑筛选" />
+	<string id="EBIhdMZcrLgy" text="{Hero} 在第一位置装备武器" />
+	<string id="EBIImSfYBZIB" text="{Hero} 在第二位置装备武器" />
+	<string id="EBImnt3weSaE" text="{Hero} 在第三位置装备武器" />
+	<string id="EBIQWLelE3Fl" text="{Hero} 在第四位置装备武器" />
+	<string id="EBIhHipqU9uB" text="{Hero} 装备头甲" />
+	<string id="EBI54XyvNFad" text="{Hero} 装备身甲" />
+	<string id="EBI0tuZtFp3o" text="{Hero} 装备胫甲" />
+	<string id="EBIEPpXh4mnM" text="{Hero} 装备手甲" />
+	<string id="EBIzM65FL7cP" text="{Hero} 装备披风" />
+	<string id="EBIQYRUfhlVn" text="{Hero} 装备坐骑" />
+	<string id="EBIbrmijAmqh" text="{Hero} 装备马具" />
+	<string id="EBIeRnuFTNPa" text="身甲设定已复制" />
+	<string id="EBI56u7sYkAm" text="武器设定已复制" />
+	<string id="EBI2m5jlKFnt" text="坐骑设定已复制" />
+	<string id="EBIOHCNI7iS0" text="身甲设定已粘贴" />
+	<string id="EBIZqjdQWO9K" text="武器设置已粘贴" />
+	<string id="EBIGACUqtWPa" text="坐骑设定已粘贴" />
+	<string id="EBIzovmUPlRq" text="角色设置已复制" />
+	<string id="EBIkFh5j2NRD" text="角色设置已粘贴" />
+	<string id="EBI6NqM3Sl2k" text="穿刺/投掷物伤害" />
+	<string id="EBI9f3yNwEuu" text="操纵加成" />
+	<string id="EBIrhIxyYyp5" text="速度加成" />
+	<string id="EBIw9NV9aoBI" text="冲撞加成" />
+	<string id="EBIIGMjib8yk" text="复制筛选" />
+	<string id="EBIJcmzPmKnJ" text="粘贴筛选" />
+	<string id="EBIDHccM8J9h" text="复制角色" />
+	<string id="EBI3eEhYOCKO" text="粘贴角色" />
+  </strings>
+</base>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Español (LA)" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Filtro de arma {WSLOT}" />
+	<string id="EBIA1VY1vofT" text="Filtro de timón" />
+	<string id="EBItycihSPUM" text="Filtro de capa" />
+	<string id="EBI2OAplMiax" text="Filtro de armadura" />
+	<string id="EBIndXJhG4Fl" text="Filtro de guantes" />
+	<string id="EBISyLNRp2EH" text="filtro de arranque" />
+	<string id="EBIWv3s46UuK" text="Filtro de arnés" />
+	<string id="EBIWKXY16qEH" text="Filtro de caballo" />
+	<string id="EBIhdMZcrLgy" text="{Hero} equipa un arma en la primer ranura" />
+	<string id="EBIImSfYBZIB" text="{Hero} equipa un arma en la segunda ranura" />
+	<string id="EBImnt3weSaE" text="{Hero} equipa un arma en la tercera ranura" />
+	<string id="EBIQWLelE3Fl" text="{Hero} equipa un arma en la cuarta ranura" />
+	<string id="EBIhHipqU9uB" text="{Hero} equipa casco" />
+	<string id="EBI54XyvNFad" text="{Hero} equipa una armadura corporal" />
+	<string id="EBI0tuZtFp3o" text="{Hero} equipa botas" />
+	<string id="EBIEPpXh4mnM" text="{Hero} equipa guantes" />
+	<string id="EBIzM65FL7cP" text="{Hero} equipa capa" />
+	<string id="EBIQYRUfhlVn" text="{Hero} equipa caballo" />
+	<string id="EBIbrmijAmqh" text="{Hero} equipa un arnés para caballos" />
+	<string id="EBIeRnuFTNPa" text="Configuración de armadura copiada" />
+	<string id="EBI56u7sYkAm" text="Configuración de armas copiada" />
+	<string id="EBI2m5jlKFnt" text="Configuración de montaje copiada" />
+	<string id="EBIOHCNI7iS0" text="Configuración de armadura pegada" />
+	<string id="EBIZqjdQWO9K" text="Configuraciones de armas pegada" />
+	<string id="EBIGACUqtWPa" text="Configuración de montaje pegada" />
+	<string id="EBIzovmUPlRq" text="Configuración de caracteres copiada" />
+	<string id="EBIkFh5j2NRD" text="Configuración de caracteres pegada" />
+	<string id="EBI6NqM3Sl2k" text="Daño por empuje/misil" />
+	<string id="EBI9f3yNwEuu" text="Bonificación de maniobra" />
+	<string id="EBIrhIxyYyp5" text="Bonificación de velocidad" />
+	<string id="EBIw9NV9aoBI" text="Bonificación de carga" />
+	<string id="EBIIGMjib8yk" text="Copiar filtro" />
+	<string id="EBIJcmzPmKnJ" text="Pegar filtro" />
+	<string id="EBIDHccM8J9h" text="Copiar carácter" />
+	<string id="EBI3eEhYOCKO" text="Pegar carácter" />
+  </strings>
+</base>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="日本語" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="武器 {WSLOT} フィルター" />
+	<string id="EBIA1VY1vofT" text="ヘルムフィルター" />
+	<string id="EBItycihSPUM" text="クロークフィルター" />
+	<string id="EBI2OAplMiax" text="アーマーフィルター" />
+	<string id="EBIndXJhG4Fl" text="グローブフィルター" />
+	<string id="EBISyLNRp2EH" text="ブートフィルター" />
+	<string id="EBIWv3s46UuK" text="ハーネスフィルター" />
+	<string id="EBIWKXY16qEH" text="馬フィルター" />
+	<string id="EBIhdMZcrLgy" text="{Hero} は最初のスロットに武器を装備します" />
+	<string id="EBIImSfYBZIB" text="{Hero} は2番目のスロットに武器を装備します" />
+	<string id="EBImnt3weSaE" text="{Hero} は3番目のスロットに武器を装備します" />
+	<string id="EBIQWLelE3Fl" text="{Hero} は4番目のスロットに武器を装備します" />
+	<string id="EBIhHipqU9uB" text="{Hero} がヘルメットを装備する" />
+	<string id="EBI54XyvNFad" text="{Hero} はボディアーマーを装備する" />
+	<string id="EBI0tuZtFp3o" text="{Hero} はブーツを装備する" />
+	<string id="EBIEPpXh4mnM" text="{Hero} は手袋を装備する" />
+	<string id="EBIzM65FL7cP" text="{Hero} はケープを装備する" />
+	<string id="EBIQYRUfhlVn" text="{Hero} は馬に装備をつける" />
+	<string id="EBIbrmijAmqh" text="{Hero} は馬具を装備する" />
+	<string id="EBIeRnuFTNPa" text="アーマー設定をコピーしました" />
+	<string id="EBI56u7sYkAm" text="武器設定をコピーしました" />
+	<string id="EBI2m5jlKFnt" text="マウント設定をコピーしました" />
+	<string id="EBIOHCNI7iS0" text="アーマー設定を貼り付けました" />
+	<string id="EBIZqjdQWO9K" text="武器設定を貼り付けました" />
+	<string id="EBIGACUqtWPa" text="マウント設定を貼り付けました" />
+	<string id="EBIzovmUPlRq" text="キャラクター設定をコピーしました" />
+	<string id="EBIkFh5j2NRD" text="キャラクター設定を貼り付けました" />
+	<string id="EBI6NqM3Sl2k" text="推力/ミサイルダメージ" />
+	<string id="EBI9f3yNwEuu" text="機動ボーナス" />
+	<string id="EBIrhIxyYyp5" text="スピードボーナス" />
+	<string id="EBIw9NV9aoBI" text="乗算ボーナス" />
+	<string id="EBIIGMjib8yk" text="フィルターをコピー" />
+	<string id="EBIJcmzPmKnJ" text="貼り付けフィルター" />
+	<string id="EBIDHccM8J9h" text="文字をコピー" />
+	<string id="EBI3eEhYOCKO" text="文字を貼り付け" />
+  </strings>
+</base>

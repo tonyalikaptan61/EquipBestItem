@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Filtre d'arme {WSLOT}" />
+	<string id="EBIA1VY1vofT" text="Filtre de barre" />
+	<string id="EBItycihSPUM" text="Filtre de cape" />
+	<string id="EBI2OAplMiax" text="Filtre d'armure" />
+	<string id="EBIndXJhG4Fl" text="Filtre à gants" />
+	<string id="EBISyLNRp2EH" text="filtre de bottes" />
+	<string id="EBIWv3s46UuK" text="Filtre de harnais" />
+	<string id="EBIWKXY16qEH" text="Filtre cheval" />
+	<string id="EBIhdMZcrLgy" text="{Hero} équipe l'arme dans le premier emplacement" />
+	<string id="EBIImSfYBZIB" text="{Hero} équipe l'arme dans le deuxième emplacement" />
+	<string id="EBImnt3weSaE" text="{Hero} équipe l'arme dans le troisième emplacement" />
+	<string id="EBIQWLelE3Fl" text="{Hero} équipe l'arme dans le quatrième emplacement" />
+	<string id="EBIhHipqU9uB" text="{Hero} équipe son casque" />
+	<string id="EBI54XyvNFad" text="{Hero} équipe un gilet pare-balles" />
+	<string id="EBI0tuZtFp3o" text="{Hero} équipe les bottes" />
+	<string id="EBIEPpXh4mnM" text="{Hero} équipe des gants" />
+	<string id="EBIzM65FL7cP" text="{Hero} équipe la cape" />
+	<string id="EBIQYRUfhlVn" text="{Hero} équipe le cheval" />
+	<string id="EBIbrmijAmqh" text="{Hero} équipe le harnais du cheval" />
+	<string id="EBIeRnuFTNPa" text="Paramètres d'armure copiés" />
+	<string id="EBI56u7sYkAm" text="Paramètres d'arme copiés" />
+	<string id="EBI2m5jlKFnt" text="Paramètres de montage copiés" />
+	<string id="EBIOHCNI7iS0" text="Paramètres d'armure collés" />
+	<string id="EBIZqjdQWO9K" text="Paramètres d'arme collés" />
+	<string id="EBIGACUqtWPa" text="Paramètres de montage collés" />
+	<string id="EBIzovmUPlRq" text="Paramètres de caractère copiés" />
+	<string id="EBIkFh5j2NRD" text="Paramètres de caractères collés" />
+	<string id="EBI6NqM3Sl2k" text="Dégâts de poussée/missile" />
+	<string id="EBI9f3yNwEuu" text="Bonus de manœuvre" />
+	<string id="EBIrhIxyYyp5" text="Bonus de vitesse" />
+	<string id="EBIw9NV9aoBI" text="Bonus de charge" />
+	<string id="EBIIGMjib8yk" text="Copier le filtre" />
+	<string id="EBIJcmzPmKnJ" text="Coller le filtre" />
+	<string id="EBIDHccM8J9h" text="Copier le caractère" />
+	<string id="EBI3eEhYOCKO" text="Coller le caractère" />
+  </strings>
+</base>

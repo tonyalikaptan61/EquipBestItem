@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Waffen {WSLOT} Filter" />
+	<string id="EBIA1VY1vofT" text="Helm Filter" />
+	<string id="EBItycihSPUM" text="Umhang Filter" />
+	<string id="EBI2OAplMiax" text="Rüstung Filter" />
+	<string id="EBIndXJhG4Fl" text="Handschuh Filter" />
+	<string id="EBISyLNRp2EH" text="Stiefel Filter" />
+	<string id="EBIWv3s46UuK" text="Harnisch Filter" />
+	<string id="EBIWKXY16qEH" text="Pferd Filter" />
+	<string id="EBIhdMZcrLgy" text="{Hero} rüstet Waffe im ersten Slot aus" />
+	<string id="EBIImSfYBZIB" text="{Hero} rüstet Waffe im zweiten Slot aus" />
+	<string id="EBImnt3weSaE" text="{Hero} rüstet Waffe im dritten Slot aus" />
+	<string id="EBIQWLelE3Fl" text="{Hero} rüstet Waffe im vierten Slot aus" />
+	<string id="EBIhHipqU9uB" text="{Hero} rüstet Helm aus" />
+	<string id="EBI54XyvNFad" text="{Hero} rüstet sich mit Körperpanzer aus" />
+	<string id="EBI0tuZtFp3o" text="{Hero} rüstet Stiefel aus" />
+	<string id="EBIEPpXh4mnM" text="{Hero} rüstet Handschuhe aus" />
+	<string id="EBIzM65FL7cP" text="{Hero} rüstet Umhang aus" />
+	<string id="EBIQYRUfhlVn" text="{Hero} rüstet Pferd aus" />
+	<string id="EBIbrmijAmqh" text="{Hero} rüstet Pferdegeschirre aus" />
+	<string id="EBIeRnuFTNPa" text="Rüstungseinstellungen kopiert" />
+	<string id="EBI56u7sYkAm" text="Waffeneinstellungen kopiert" />
+	<string id="EBI2m5jlKFnt" text="Mount-Einstellungen kopiert" />
+	<string id="EBIOHCNI7iS0" text="Rüstungseinstellungen eingefügt" />
+	<string id="EBIZqjdQWO9K" text="Waffeneinstellungen eingefügt" />
+	<string id="EBIGACUqtWPa" text="Mount-Einstellungen eingefügt" />
+	<string id="EBIzovmUPlRq" text="Charaktereinstellungen kopiert" />
+	<string id="EBIkFh5j2NRD" text="Charaktereinstellungen eingefügt" />
+	<string id="EBI6NqM3Sl2k" text="Stich/Geschoss Schäden" />
+	<string id="EBI9f3yNwEuu" text="Manöverbonus" />
+	<string id="EBIrhIxyYyp5" text="Geschwindigkeitsbonus" />
+	<string id="EBIw9NV9aoBI" text="Sturmangriffsbonus" />
+	<string id="EBIIGMjib8yk" text="Filter kopieren" />
+	<string id="EBIJcmzPmKnJ" text="Filter einfügen" />
+	<string id="EBIDHccM8J9h" text="Charakter kopieren" />
+	<string id="EBI3eEhYOCKO" text="Charakter einfügen" />
+  </strings>
+</base>

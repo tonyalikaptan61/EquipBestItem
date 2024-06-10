@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="Filtro arma {WSLOT}" />
+	<string id="EBIA1VY1vofT" text="Filtro timone" />
+	<string id="EBItycihSPUM" text="Filtro di mantello" />
+	<string id="EBI2OAplMiax" text="Filtro dell'armatura" />
+	<string id="EBIndXJhG4Fl" text="Filtro per guanti" />
+	<string id="EBISyLNRp2EH" text="filtro di stivali" />
+	<string id="EBIWv3s46UuK" text="Filtro del cablaggio" />
+	<string id="EBIWKXY16qEH" text="Filtro cavallo" />
+	<string id="EBIhdMZcrLgy" text="{Hero} equipaggia l'arma nel primo slot" />
+	<string id="EBIImSfYBZIB" text="{Hero} equipaggia l'arma nel secondo slot" />
+	<string id="EBImnt3weSaE" text="{Hero} equipaggia l'arma nel terzo slot" />
+	<string id="EBIQWLelE3Fl" text="{Hero} equipaggia l'arma nel quarto slot" />
+	<string id="EBIhHipqU9uB" text="{Hero} equipaggia l'elmo" />
+	<string id="EBI54XyvNFad" text="{Hero} equipaggia l'armatura" />
+	<string id="EBI0tuZtFp3o" text="{Hero} equipaggia gli stivali" />
+	<string id="EBIEPpXh4mnM" text="{Hero} equipaggia i guanti" />
+	<string id="EBIzM65FL7cP" text="{Hero} equipaggia il mantello" />
+	<string id="EBIQYRUfhlVn" text="{Hero} equipaggia il cavallo" />
+	<string id="EBIbrmijAmqh" text="{Hero} equipaggia i finimenti per cavalli" />
+	<string id="EBIeRnuFTNPa" text="Impostazioni dell'armatura copiate" />
+	<string id="EBI56u7sYkAm" text="Impostazioni dell'arma copiate" />
+	<string id="EBI2m5jlKFnt" text="Impostazioni di montaggio copiate" />
+	<string id="EBIOHCNI7iS0" text="Impostazioni dell'armatura incollate" />
+	<string id="EBIZqjdQWO9K" text="Impostazioni dell'arma incollate" />
+	<string id="EBIGACUqtWPa" text="Impostazioni di montaggio incollate" />
+	<string id="EBIzovmUPlRq" text="Impostazioni dei caratteri copiate" />
+	<string id="EBIkFh5j2NRD" text="Impostazioni dei caratteri incollate" />
+	<string id="EBI6NqM3Sl2k" text="Danno da spinta/missile" />
+	<string id="EBI9f3yNwEuu" text="Bonus di manovra" />
+	<string id="EBIrhIxyYyp5" text="Bonus velocità" />
+	<string id="EBIw9NV9aoBI" text="Bonus di carica" />
+	<string id="EBIIGMjib8yk" text="Copia filtro" />
+	<string id="EBIJcmzPmKnJ" text="Incolla filtro" />
+	<string id="EBIDHccM8J9h" text="Copia carattere" />
+	<string id="EBI3eEhYOCKO" text="Incolla carattere" />
+  </strings>
+</base>

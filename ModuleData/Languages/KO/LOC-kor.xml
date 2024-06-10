@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+	<string id="EBIF1Rlt8Fv1" text="무기 {WSLOT} 필터" />
+	<string id="EBIA1VY1vofT" text="투구 필터" />
+	<string id="EBItycihSPUM" text="망토 필터" />
+	<string id="EBI2OAplMiax" text="방어구 필터" />
+	<string id="EBIndXJhG4Fl" text="장갑 필터" />
+	<string id="EBISyLNRp2EH" text="부트 필터" />
+	<string id="EBIWv3s46UuK" text="하네스 필터" />
+	<string id="EBIWKXY16qEH" text="말 필터" />
+	<string id="EBIhdMZcrLgy" text="{Hero} 는 첫 번째 슬롯에 무기를 장착합니다" />
+	<string id="EBIImSfYBZIB" text="{Hero} 는 두 번째 슬롯에 무기를 장착합니다" />
+	<string id="EBImnt3weSaE" text="{Hero} 는 세 번째 슬롯에 무기를 장착합니다" />
+	<string id="EBIQWLelE3Fl" text="{Hero} 는 네 번째 슬롯에 무기를 장착합니다" />
+	<string id="EBIhHipqU9uB" text="{Hero} 는 헬멧을 착용합니다" />
+	<string id="EBI54XyvNFad" text="{Hero} 는 방탄복을 장비합니다" />
+	<string id="EBI0tuZtFp3o" text="{Hero} 는 부츠를 장비합니다" />
+	<string id="EBIEPpXh4mnM" text="{Hero} 는 장갑을 장착합니다" />
+	<string id="EBIzM65FL7cP" text="{Hero} 는 망토를 착용합니다" />
+	<string id="EBIQYRUfhlVn" text="{Hero} 는 말을 장비합니다" />
+	<string id="EBIbrmijAmqh" text="{Hero} 는 말 마구를 장비합니다" />
+	<string id="EBIeRnuFTNPa" text="방어구 설정 복사됨" />
+	<string id="EBI56u7sYkAm" text="무기 설정이 복사되었습니다" />
+	<string id="EBI2m5jlKFnt" text="마운트 설정이 복사되었습니다" />
+	<string id="EBIOHCNI7iS0" text="방어구 설정 붙여넣기" />
+	<string id="EBIZqjdQWO9K" text="무기 설정 붙여넣기" />
+	<string id="EBIGACUqtWPa" text="마운트 설정을 붙여넣기" />
+	<string id="EBIzovmUPlRq" text="캐릭터 설정이 복사되었습니다" />
+	<string id="EBIkFh5j2NRD" text="문자 설정 붙여넣기" />
+	<string id="EBI6NqM3Sl2k" text="추력/미사일 피해" />
+	<string id="EBI9f3yNwEuu" text="기동 보너스" />
+	<string id="EBIrhIxyYyp5" text="속도 보너스" />
+	<string id="EBIw9NV9aoBI" text="돌진 보너스" />
+	<string id="EBIIGMjib8yk" text="필터 복사" />
+	<string id="EBIJcmzPmKnJ" text="필터 붙여넣기" />
+	<string id="EBIDHccM8J9h" text="문자 복사" />
+	<string id="EBI3eEhYOCKO" text="문자 붙여넣기" />
+  </strings>
+</base>
