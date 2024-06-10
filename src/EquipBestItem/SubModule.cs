@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
-using TaleWorlds.MountAndBlade;
 using TaleWorlds.Library;
+using TaleWorlds.MountAndBlade;
 
 namespace EquipBestItem
 {

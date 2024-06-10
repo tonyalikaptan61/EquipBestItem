@@ -33,7 +33,7 @@ namespace EquipBestItem
                     if (ScreenManager.TopScreen is GauntletInventoryScreen)
                     {
                         _inventoryScreen = ScreenManager.TopScreen as GauntletInventoryScreen;
-                        
+
                         // Get inventory from the inventory screen using reflection
                         Inventory = _inventoryScreen.GetField("_dataSource") as SPInventoryVM;
 

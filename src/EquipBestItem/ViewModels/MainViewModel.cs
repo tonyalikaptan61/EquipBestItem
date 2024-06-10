@@ -257,7 +257,7 @@ namespace EquipBestItem
             // Fetch the character's current equipment depending we are in 
             // a war set or civilian set
             Equipment equipment = _inventory.IsInWarSet ? characterData.GetBattleEquipment() : characterData.GetCivilianEquipment();
-            
+
             // These two would be used to get the best equipment from both sides
             _bestLeftEquipment = new Equipment();
             _bestRightEquipment = new Equipment();
@@ -281,7 +281,7 @@ namespace EquipBestItem
                 if (!SettingsLoader.Instance.Settings.IsRightPanelLocked)
                 {
                     bestRightEquipmentElement = bestEquipmentUpgrader.GetBetterItemFromSide(_inventory.RightItemListVM, equipment[equipmentIndex], equipmentIndex, !_inventory.IsInWarSet);
-                
+
                 }
 
                 // After getting the best items from both panels, we need to find the best item between
@@ -382,7 +382,7 @@ namespace EquipBestItem
                     }
                 }
             }
-            
+
             // Returns only the initial equipment character 
             return _inventoryLogic.InitialEquipmentCharacter;
         }
@@ -409,7 +409,7 @@ namespace EquipBestItem
                 );
                 _inventoryLogic.AddTransferCommand(transferCommand);
             }
-            
+
             // Equip
             if (bestEquipmentUpgrader.ItemIndexCalculation(_bestLeftEquipment[equipmentIndex], equipmentIndex) > bestEquipmentUpgrader.ItemIndexCalculation(_bestRightEquipment[equipmentIndex], equipmentIndex))
             {

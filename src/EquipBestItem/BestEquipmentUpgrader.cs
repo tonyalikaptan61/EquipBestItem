@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using Helpers;
+﻿using Helpers;
 
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Inventory;
 using TaleWorlds.CampaignSystem.ViewModelCollection.Inventory;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 
 namespace EquipBestItem
 {
@@ -69,7 +68,7 @@ namespace EquipBestItem
                     // Check that both weapons have same weapon class and same item usage
                     bool sameWeaponClass = equipmentElement.Item.WeaponComponent.PrimaryWeapon.WeaponClass == item.ItemRosterElement.EquipmentElement.Item.PrimaryWeapon.WeaponClass;
                     bool sameItemUsage = GetItemUsage(item) == equipmentElement.Item.PrimaryWeapon.ItemUsage;
-                    
+
                     // Check that both weapons are both couch weapons or not
                     // TODO: Rewrite this portion since it is confusing to follow
                     bool couchWeapon = IsCouchWeapon(equipmentElement);
@@ -203,7 +202,7 @@ namespace EquipBestItem
                 if (equipment[equipmentIndex].IsEmpty && equipmentIndex < EquipmentIndex.NonWeaponItemBeginSlot ||
                     equipment[EquipmentIndex.Horse].IsEmpty && equipmentIndex == EquipmentIndex.HorseHarness)
                     continue;
-                
+
                 EquipmentElement bestLeftEquipmentElement = new EquipmentElement();
                 EquipmentElement bestRightEquipmentElement = new EquipmentElement();
 
@@ -285,41 +284,41 @@ namespace EquipBestItem
         private void EquipMessage(EquipmentIndex equipmentIndex)
         {
             var name = _characterData.GetCharacterObject().Name.ToString();
-
+            MBTextManager.SetTextVariable("Hero", name);
             switch (equipmentIndex)
             {
                 case EquipmentIndex.Weapon0:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips weapon in the first slot"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIhdMZcrLgy}{Hero} equips weapon in the first slot").ToString()));
                     break;
                 case EquipmentIndex.Weapon1:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips weapon in the second slot"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIImSfYBZIB}{Hero} equips weapon in the second slot").ToString()));
                     break;
                 case EquipmentIndex.Weapon2:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips weapon in the third slot"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBImnt3weSaE}{Hero} equips weapon in the third slot").ToString()));
                     break;
                 case EquipmentIndex.Weapon3:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips weapon in the fourth slot"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIQWLelE3Fl}{Hero} equips weapon in the fourth slot").ToString()));
                     break;
                 case EquipmentIndex.Head:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips helmet"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIhHipqU9uB}{Hero} equips helmet").ToString()));
                     break;
                 case EquipmentIndex.Body:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips body armor"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBI54XyvNFad}{Hero} equips body armor").ToString()));
                     break;
                 case EquipmentIndex.Leg:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips boots"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBI0tuZtFp3o}{Hero} equips boots").ToString()));
                     break;
                 case EquipmentIndex.Gloves:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips gloves"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIEPpXh4mnM}{Hero} equips gloves").ToString()));
                     break;
                 case EquipmentIndex.Cape:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips cape"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIzM65FL7cP}{Hero} equips cape").ToString()));
                     break;
                 case EquipmentIndex.Horse:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips horse"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIQYRUfhlVn}{Hero} equips horse").ToString()));
                     break;
                 case EquipmentIndex.HorseHarness:
-                    InformationManager.DisplayMessage(new InformationMessage(name + " equips horse harness"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIbrmijAmqh}{Hero} equips horse harness").ToString()));
                     break;
                 default:
                     break;
@@ -351,10 +350,10 @@ namespace EquipBestItem
             // Calculation for weapon items
             if (sourceItem.Item.PrimaryWeapon != null)
             {
-                return _bestEquipmentCalculator.CalculateWeaponValue(sourceItem,
+                return _bestEquipmentCalculator.CalculateWeaponsValue(sourceItem,
                     _characterData.GetCharacterSettings().FilterWeapon[GetEquipmentSlot(slot)]);
             }
-            
+
             // Calculation for horse component
             if (sourceItem.Item.HasHorseComponent)
             {

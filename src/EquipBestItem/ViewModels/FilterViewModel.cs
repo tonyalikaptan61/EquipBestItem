@@ -1,5 +1,6 @@
 ﻿using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 
 namespace EquipBestItem
 {
@@ -892,6 +893,258 @@ namespace EquipBestItem
         }
         #endregion DataSourceProperties
 
+        [DataSourceProperty]
+        public string SwingDamageText
+        {
+            get
+            {
+                return new TextObject("{=QeToaiLt}Swing Damage").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string SwingSpeedText
+        {
+            get
+            {
+                return new TextObject("{=sVZaIPoQ}Swing Speed").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ThrustDamageText
+        {
+            get
+            {
+                return new TextObject("{=EBI6NqM3Sl2k}Thrust/Missile Damage").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ThrustSpeedText
+        {
+            get
+            {
+                return new TextObject("{=4uMWNDoi}Thrust Speed").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string WeaponLengthText
+        {
+            get
+            {
+                return new TextObject("{=ZcybPatO}Weapon Lenght").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string HandlingText
+        {
+            get
+            {
+                return new TextObject("{=oibdTnXP}Handling").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string WeightText
+        {
+            get
+            {
+                return new TextObject("{=4Dd2xgPm}Weight").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string AccuracyText
+        {
+            get
+            {
+                return new TextObject("{=TAnabTdy}Accuracy").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string MissileSpeedText
+        {
+            get
+            {
+                return new TextObject("{=bAqDnkaT}Missile Speed").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string BodyArmorText
+        {
+            get
+            {
+                return new TextObject("{=HkfY3Ds5}Body Armor").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string StackText
+        {
+            get
+            {
+                return new TextObject("{=UbZL2BJQ}Hit Points").ToString() + "/" + new TextObject("{=twtbH1zv}Stack Amount").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string HeadArmorText
+        {
+            get
+            {
+                return new TextObject("{=O3dhjtOS}Head Armor").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string LegArmorText
+        {
+            get
+            {
+                return new TextObject("{=eIws123Z}Leg Armor").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ArmArmorText
+        {
+            get
+            {
+                return new TextObject("{=kx7q8ybD}Arm Armor").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ManeuverBonusText
+        {
+            get
+            {
+                return new TextObject("{=EBI9f3yNwEuu}Maneuver Bonus").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string SpeedBonusText
+        {
+            get
+            {
+                return new TextObject("{=EBIrhIxyYyp5}Speed Bonus").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ChargeBonusText
+        {
+            get
+            {
+                return new TextObject("{=EBIw9NV9aoBI}Charge Bonus").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ChargeDamageText
+        {
+            get
+            {
+                return new TextObject("{=Mfbc4rQR}Charge Damage").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string HitPointsText
+        {
+            get
+            {
+                return new TextObject("{=UbZL2BJQ}Hit Points").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string ManeuverText
+        {
+            get
+            {
+                return new TextObject("{=rg7OuWS2}Maneuver").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string SpeedText
+        {
+            get
+            {
+                return new TextObject("{=6GSXsdeX}Speed").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string LockText
+        {
+            get
+            {
+                return new TextObject("{=lockverb}Lock").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string DefaultText
+        {
+            get
+            {
+                return new TextObject("{=fMSYE6Ii}Default").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string CloseText
+        {
+            get
+            {
+                return new TextObject("{=yQtzabbe}Close").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string CopyFilterText
+        {
+            get
+            {
+                return new TextObject("{=EBIIGMjib8yk}Copy Filter").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string PasteFilterText
+        {
+            get
+            {
+                return new TextObject("{=EBIJcmzPmKnJ}Paste Filter").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string CopyCharacterText
+        {
+            get
+            {
+                return new TextObject("{=EBIDHccM8J9h}Copy Character").ToString();
+            }
+        }
+
+        [DataSourceProperty]
+        public string PasteCharacterText
+        {
+            get
+            {
+                return new TextObject("{=EBI3eEhYOCKO}Paste Character").ToString();
+            }
+        }
+
         public FilterViewModel()
         {
             this.RefreshValues();
@@ -923,34 +1176,35 @@ namespace EquipBestItem
 
             // Updates the title whether we are looking at weapon, armor, or mount filter settings window
             if (!IsWeaponSlotHidden)
-                this.Title = "Weapon " + (CurrentSlot + 1) + " filter";
+                MBTextManager.SetTextVariable("WSLOT", CurrentSlot + 1);
+            this.Title = new TextObject("{=EBIF1Rlt8Fv1}Weapon {WSLOT} Filter").ToString();
             if (!IsArmorSlotHidden)
                 switch (CurrentSlot)
                 {
                     case 0:
-                        this.Title = "Helm filter";
+                        this.Title = new TextObject("{=EBIA1VY1vofT}Helm Filter").ToString();
                         break;
                     case 1:
-                        this.Title = "Cloak filter";
+                        this.Title = new TextObject("{=EBItycihSPUM}Cloak Filter").ToString();
                         break;
                     case 2:
-                        this.Title = "Armor filter";
+                        this.Title = new TextObject("{=EBI2OAplMiax}Armor Filter").ToString();
                         break;
                     case 3:
-                        this.Title = "Glove filter";
+                        this.Title = new TextObject("{=EBIndXJhG4Fl}Glove Filter").ToString();
                         break;
                     case 4:
-                        this.Title = "Boot filter";
+                        this.Title = new TextObject("{=EBISyLNRp2EH}Boot Filter").ToString();
                         break;
                     case 5:
-                        this.Title = "Harness filter";
+                        this.Title = new TextObject("{=EBIWv3s46UuK}Harness Filter").ToString();
                         break;
                     default:
-                        this.Title = "Default";
+                        this.Title = new TextObject("{=fMSYE6Ii}Default").ToString();
                         break;
                 }
             if (!IsMountSlotHidden)
-                this.Title = "Mount " + "filter";
+                this.Title = new TextObject("{=EBIWKXY16qEH}Horse Filter").ToString();
 
             if (!IsWeaponSlotHidden)
             {
@@ -986,6 +1240,7 @@ namespace EquipBestItem
                 this.Maneuver = this.CharacterSettings.FilterMount.Maneuver.ToString();
                 this.Speed = this.CharacterSettings.FilterMount.Speed.ToString();
             }
+
 
             //Helmet icon state
             if (this.CharacterSettings.FilterArmor[0].ThisFilterNotDefault())
@@ -1556,7 +1811,7 @@ namespace EquipBestItem
             else
                 this.IsHiddenFilterLayer = !IsHiddenFilterLayer;
 
-            
+
             this.IsArmorSlotHidden = false;
             this.IsWeaponSlotHidden = true;
             this.IsMountSlotHidden = true;
@@ -1716,17 +1971,17 @@ namespace EquipBestItem
                 case FilterItemState.Armor:
                     _clipboardFilterArmorSettings = new FilterArmorSettings(CharacterSettings.FilterArmor[CurrentSlot]);
                     IsFilterArmorSettingsCopied = true;
-                    InformationManager.DisplayMessage(new InformationMessage("Armor settings copied"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIeRnuFTNPa}Armor settings copied").ToString()));
                     break;
                 case FilterItemState.Weapon:
                     _clipboardFilterWeaponSettings = new FilterWeaponSettings(CharacterSettings.FilterWeapon[CurrentSlot]);
                     IsFilterWeaponSettingsCopied = true;
-                    InformationManager.DisplayMessage(new InformationMessage("Weapon settings copied"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBI56u7sYkAm}Weapon settings copied").ToString()));
                     break;
                 case FilterItemState.Mount:
                     _clipboardFilterMountSettings = new FilterMountSettings(CharacterSettings.FilterMount);
                     IsFilterMountSettingsCopied = true;
-                    InformationManager.DisplayMessage(new InformationMessage("Mount settings copied"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBI2m5jlKFnt}Mount settings copied").ToString()));
                     break;
             }
         }
@@ -1737,15 +1992,15 @@ namespace EquipBestItem
             {
                 case FilterItemState.Armor:
                     CharacterSettings.FilterArmor[CurrentSlot] = new FilterArmorSettings(_clipboardFilterArmorSettings);
-                    InformationManager.DisplayMessage(new InformationMessage("Armor settings pasted"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIOHCNI7iS0}Armor settings pasted").ToString()));
                     break;
                 case FilterItemState.Weapon:
                     CharacterSettings.FilterWeapon[CurrentSlot] = new FilterWeaponSettings(_clipboardFilterWeaponSettings);
-                    InformationManager.DisplayMessage(new InformationMessage("Weapon settings pasted"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIZqjdQWO9K}Weapon settings pasted").ToString()));
                     break;
                 case FilterItemState.Mount:
                     CharacterSettings.FilterMount = new FilterMountSettings(_clipboardFilterMountSettings);
-                    InformationManager.DisplayMessage(new InformationMessage("Mount settings pasted"));
+                    InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIGACUqtWPa}Mount settings pasted").ToString()));
                     break;
             }
             RefreshValues();
@@ -1755,7 +2010,7 @@ namespace EquipBestItem
         {
             _clipboardCharacterSettings = new CharacterSettings(CharacterSettings);
             IsCharacterSettingsCopied = true;
-            InformationManager.DisplayMessage(new InformationMessage("Character settings copied"));
+            InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIzovmUPlRq}Character settings copied").ToString()));
         }
 
         public void ExecutePasteCharacterSettings()
@@ -1764,7 +2019,7 @@ namespace EquipBestItem
             CharacterSettings = new CharacterSettings(_clipboardCharacterSettings);
             CharacterSettings.Name = tempName;
             _pastedCharacterSettings = true;
-            InformationManager.DisplayMessage(new InformationMessage("Character settings pasted"));
+            InformationManager.DisplayMessage(new InformationMessage(new TextObject("{=EBIkFh5j2NRD}Character settings pasted").ToString()));
             RefreshValues();
         }
 

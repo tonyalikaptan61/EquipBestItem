@@ -25,7 +25,7 @@ namespace EquipBestItem
         {
             // Get method info from the given type
             var methodInfo = o.GetType().GetMethod(methodName, System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            
+
             // Run the method on the object if we have the method info
             // Otherwise, return null since there is no method info
             if (methodInfo != null)
@@ -56,7 +56,7 @@ namespace EquipBestItem
         {
             // Get field info from the given type
             var fieldInfo = o.GetType().GetField(fieldName, System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            
+
             // Get field value from the object if we have the field info
             // Otherwise, return null since there is no field info
             if (fieldInfo != null)
@@ -86,7 +86,7 @@ namespace EquipBestItem
         {
             TextWriter writer = null;
             XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-            
+
             // Add prefix and namespace for the serializer to work
             ns.Add("", "");
 

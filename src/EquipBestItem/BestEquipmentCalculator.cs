@@ -1,6 +1,5 @@
 ﻿using System;
 using TaleWorlds.Core;
-using TaleWorlds.Library;
 
 namespace EquipBestItem
 {
@@ -76,15 +75,25 @@ namespace EquipBestItem
             return value;
         }
 
+        public float CalculateWeaponsValue(EquipmentElement sourceItem, FilterWeaponSettings filterWeapon)
+        {
+            float highestValue = 0;
+            foreach (WeaponComponentData weaponItem in sourceItem.Item.Weapons)
+            {
+                float temp = CalculateWeaponValue(weaponItem, sourceItem, filterWeapon);
+                if (temp > highestValue) highestValue = temp;
+            }
+            return highestValue;
+        }
+
         /// <summary>
         /// Returns value for weapon using its properties and filter settings
         /// </summary>
         /// <param name="sourceItem">Weapon item</param>
         /// <param name="slot">Weapon equipment slot</param>
         /// <returns>calculated value for weapon</returns>
-        public float CalculateWeaponValue(EquipmentElement sourceItem, FilterWeaponSettings filterWeapon)
+        public float CalculateWeaponValue(WeaponComponentData primaryWeaponItem, EquipmentElement sourceItem, FilterWeaponSettings filterWeapon)
         {
-            WeaponComponentData primaryWeaponItem = sourceItem.Item.PrimaryWeapon;
             FilterWeaponSettings weights = filterWeapon;
 
             // Fetch direct values from the weapon item
@@ -271,7 +280,7 @@ namespace EquipBestItem
                     break;
 
                 default:
-                    sum = 
+                    sum =
                         Math.Abs(filterWeapon.Accuracy) +
                         Math.Abs(filterWeapon.WeaponBodyArmor) +
                         Math.Abs(filterWeapon.Handling) +
